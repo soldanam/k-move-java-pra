@@ -37,6 +37,7 @@ class Buyer2{
 		money-=p.price;
 		bonusPoint +=p.bonusPoint;
 		item.add(p);
+		System.out.println(p);
 		System.out.println(p+"을 구입하셨습니다.");
 		
 	}
